@@ -32,7 +32,7 @@
 
 -----
 
-## 🚀 Featured Projects
+🚀 Featured Projects
 
 ### 🧠 Customer Churn Prediction
 End-to-end ML pipeline to predict churn and identify key drivers using SHAP.  
@@ -46,65 +46,21 @@ Tech: Python, statsmodels, Prophet
 Advanced SQL project generating KPIs, retention insights, and revenue analysis.  
 Tech: PostgreSQL, CTEs, Window Functions  
 
----
+-----
 
-## 📊 GitHub Stats
+📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </p>
-
----
-
-## 📫 Connect With Me
-
-- 💼 LinkedIn: (Add your link)
-- 🌐 Portfolio: (Add when ready)
-
----
-
-⭐ Always learning. Always building. Always improving.
-
-
-Hi there, I'm Chintan Patel 👋
-
-🎓 AI & Data Science Student | Calgary, Canada  
-📊 Passionate about Predictive Analytics & Business Intelligence  
-🚀 Focused on building real-world ML & analytics solutions  
-
------
-
-🔥 Core Skills
-
-- Machine Learning & Predictive Modeling  
-- Time Series Forecasting  
-- SQL & Business Analytics  
-- Data Visualization & KPI Design  
-- ML Deployment (Streamlit / APIs)
-
------
-
-🚀 Featured Projects
-
-## 🧠 Customer Churn Prediction
-End-to-end ML pipeline to predict churn and identify key drivers.  
-Tech: Python, Scikit-learn, SHAP, Streamlit  
-
-## 📈 Retail Sales Forecasting
-Time series forecasting using ARIMA/SARIMA to optimize demand planning.  
-Tech: Python, statsmodels, Prophet  
-
-## 🛒 E-commerce SQL Analytics
-Advanced SQL project analyzing revenue, retention, and business KPIs.  
-Tech: PostgreSQL, CTEs, Window Functions  
 
 -----
 
 📫 Connect With Me
 
-LinkedIn: https://www.linkedin.com/in/chintan-patel-987765129/ 
-Portfolio Website: 
+- 💼 LinkedIn: https://www.linkedin.com/in/chintan-patel-987765129/ 
+- 🌐 Portfolio: (Add when ready)
 
 -----
 
