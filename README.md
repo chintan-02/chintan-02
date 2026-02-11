@@ -48,12 +48,11 @@ Tech: PostgreSQL, CTEs, Window Functions
 
 -----
 
-📊 GitHub Stats
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
+![Chintan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact)
 
 -----
 
