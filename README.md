@@ -1,3 +1,38 @@
+<h1 align="center">Hi 👋, I'm Chintan Patel</h1>
+<h3 align="center">AI & Data Science Student | ML • Time Series • SQL • Business Analytics</h3>
+
+<p align="center">
+  📍 Calgary, Canada <br>
+  🚀 Passionate about building real-world data-driven solutions <br>
+  📊 Turning data into actionable business insights
+</p>
+
+-----
+
+🔥 About Me
+
+- 🎓 Studying Integrated Artificial Intelligence  
+- 🧠 Focused on Machine Learning & Predictive Analytics  
+- 📈 Exploring Time Series Forecasting & Demand Modeling  
+- 🛒 Strong foundation in SQL & Business Intelligence  
+- ⚡ Interested in real-world ML deployment & analytics systems  
+
+-----
+
+🛠️ Tech Stack
+
+**Languages & Tools**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+-----
+
+
 Hi there, I'm Chintan Patel 👋
 
 🎓 AI & Data Science Student | Calgary, Canada  
