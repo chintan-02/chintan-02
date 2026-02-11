@@ -21,14 +21,35 @@
 
 🛠️ Tech Stack
 
-**Languages & Tools**
+💻 Languages
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+
+🤖 Machine Learning & Data Science
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-003B57?style=for-the-badge)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC0000?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+📊 Data Visualization
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+
+🚀 Deployment & APIs
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
+
+🔧 Tools & Version Control
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 -----
 
@@ -58,8 +79,11 @@ Tech: PostgreSQL, CTEs, Window Functions
 
 📫 Connect With Me
 
-- 💼 LinkedIn: https://www.linkedin.com/in/chintan-patel-987765129/ 
-- 🌐 Portfolio: (Coming Soon)
+🔗 LinkedIn: https://www.linkedin.com/in/chintan-patel-987765129/
+
+💻 Portfolio: https://chintanpatel-portfolio-24.netlify.app/
+
+📊 Kaggle: https://www.kaggle.com/chintanpatel24
 
 -----
 
