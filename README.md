@@ -59,7 +59,7 @@ Tech: PostgreSQL, CTEs, Window Functions
 📫 Connect With Me
 
 - 💼 LinkedIn: https://www.linkedin.com/in/chintan-patel-987765129/ 
-- 🌐 Portfolio: (Add when ready)
+- 🌐 Portfolio: (Coming Soon)
 
 -----
 
