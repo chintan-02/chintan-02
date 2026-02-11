@@ -32,6 +32,40 @@
 
 -----
 
+## 🚀 Featured Projects
+
+### 🧠 Customer Churn Prediction
+End-to-end ML pipeline to predict churn and identify key drivers using SHAP.  
+Tech: Python, Scikit-learn, Streamlit  
+
+### 📈 Retail Sales Forecasting
+Time series forecasting using ARIMA/SARIMA to optimize inventory planning.  
+Tech: Python, statsmodels, Prophet  
+
+### 🛒 E-commerce SQL Analytics
+Advanced SQL project generating KPIs, retention insights, and revenue analysis.  
+Tech: PostgreSQL, CTEs, Window Functions  
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 📫 Connect With Me
+
+- 💼 LinkedIn: (Add your link)
+- 🌐 Portfolio: (Add when ready)
+
+---
+
+⭐ Always learning. Always building. Always improving.
+
 
 Hi there, I'm Chintan Patel 👋
 
