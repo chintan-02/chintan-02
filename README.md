@@ -34,8 +34,8 @@ Tech: PostgreSQL, CTEs, Window Functions
 
 📫 Connect With Me
 
-LinkedIn: (Add your link here)  
-Portfolio Website: (Add link when ready)
+LinkedIn: https://www.linkedin.com/in/chintan-patel-987765129/ 
+Portfolio Website: 
 
 -----
 
