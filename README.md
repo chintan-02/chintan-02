@@ -32,6 +32,14 @@
 
 -----
 
+## 📊 GitHub Activity
+
+![GitHub Streak](https://streak-stats.demolab.com?user=chintan-02)
+
+![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=chintan-02&layout=compact)
+
+-----
+
 🚀 Featured Projects
 
 ### 🧠 Customer Churn Prediction
@@ -45,14 +53,6 @@ Tech: Python, statsmodels, Prophet
 ### 🛒 E-commerce SQL Analytics
 Advanced SQL project generating KPIs, retention insights, and revenue analysis.  
 Tech: PostgreSQL, CTEs, Window Functions  
-
------
-
-## 📊 GitHub Activity
-
-![GitHub Streak](https://streak-stats.demolab.com?user=chintan-02)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&cache_seconds=86400)
 
 -----
 
