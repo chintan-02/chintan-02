@@ -108,13 +108,7 @@ NLP-powered resume analysis platform that parses resume text, applies TF-IDF and
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&hide_border=true&title_color=0D9488&icon_color=0D9488&text_color=2B2B2B&bg_color=ffffff&count_private=true" height="165"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&hide_border=true&title_color=0D9488&text_color=2B2B2B&bg_color=ffffff" height="165"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=chintan-02&hide_border=true&ring=0D9488&fire=0D9488&currStreakLabel=0D9488" height="150"/>
+<img src="https://streak-stats.demolab.com?user=chintan-02&hide_border=true&ring=0D9488&fire=0D9488&currStreakLabel=0D9488&sideLabels=0D9488&dates=666666" height="180"/>
 
 </div>
 
