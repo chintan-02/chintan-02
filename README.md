@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- Typing SVG header -->
 <a href="https://chintanpatel-portfolio-24.netlify.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0D9488&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Chintan+Patel;AI%2FML+Developer+%7C+SAIT+Calgary;Building+Healthcare+AI+%26+Supply+Chain+Analytics;NLP+%C2%B7+Computer+Vision+%C2%B7+Predictive+Analytics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=0D9488&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I%27m+Chintan+Patel;AI%2FML+Developer+%7C+SAIT+Calgary;Healthcare+AI+%26+Supply+Chain+Analytics;NLP+%C2%B7+Computer+Vision+%C2%B7+Predictive+Analytics" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -109,16 +108,11 @@ NLP-powered resume analysis platform that parses resume text, applies TF-IDF and
 
 <div align="center">
 
-<table>
-<tr>
-<td>
-  <img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&theme=default&hide_border=true&title_color=0D9488&icon_color=0D9488&text_color=2B2B2B&bg_color=ffffff" height="160"/>
-</td>
-<td>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&hide_border=true&title_color=0D9488&text_color=2B2B2B&bg_color=ffffff" height="160"/>
-</td>
-</tr>
-</table>
+<img src="https://github-readme-stats.vercel.app/api?username=chintan-02&show_icons=true&hide_border=true&title_color=0D9488&icon_color=0D9488&text_color=2B2B2B&bg_color=ffffff&count_private=true" height="165"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chintan-02&layout=compact&hide_border=true&title_color=0D9488&text_color=2B2B2B&bg_color=ffffff" height="165"/>
+
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=chintan-02&hide_border=true&ring=0D9488&fire=0D9488&currStreakLabel=0D9488" height="150"/>
 
