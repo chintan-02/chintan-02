@@ -1,18 +1,22 @@
 <div align="center">
 
 <a href="https://chintan-patel-ai.netlify.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=0D9488&center=true&vCenter=true&width=900&lines=Applied+AI%2FML+Engineer;Explainable+ML%2C+NLP+%26+RAG+Systems;Python+%C2%B7+FastAPI+%C2%B7+React+%C2%B7+Responsible+AI" alt="Chintan Patel — Applied AI/ML Engineer" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=0D9488&center=true&vCenter=true&width=900&lines=Applied+AI%2FML+Engineer;Healthcare+ML+%C2%B7+NLP+%C2%B7+RAG+Systems;Python+%C2%B7+FastAPI+%C2%B7+React+%C2%B7+Next.js;Explainable+%C2%B7+Evidence-Grounded+%C2%B7+Human-Reviewed"
+    alt="Chintan Patel — Applied AI/ML Engineer"
+  />
 </a>
 
-<br/>
+<br />
 
 # Chintan Patel
 
-### Applied AI/ML Engineer · Machine Learning · NLP & RAG · AI Product Engineering
+### Applied AI/ML Engineer · Data Science · GenAI/RAG · AI Product Engineering
 
-I build end-to-end AI systems that are **explainable, evidence-grounded, auditable, and designed for human review**.
+I build end-to-end AI systems that connect **data, evaluated models, retrieval pipelines, typed APIs, human review, and operational evidence**.
 
-📍 Calgary, Alberta, Canada
+📍 Calgary, Alberta, Canada  
+🎯 Open to co-op, internship, new-graduate, and junior AI/ML opportunities across Canada
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0D9488?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chintan-patel-ai.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chintan-patel-ai/)
@@ -24,111 +28,157 @@ I build end-to-end AI systems that are **explainable, evidence-grounded, auditab
 
 ## About
 
-I am an Applied AI/ML engineer with a computer science background, currently completing SAIT's **Integrated Artificial Intelligence** post-diploma certificate.
+I am a Computer Science graduate completing SAIT's **Integrated Artificial Intelligence** postgraduate certificate in Calgary.
 
-My work focuses on moving AI beyond notebooks into complete application workflows with:
+My work focuses on practical AI engineering across three areas:
 
-- model evaluation and error analysis
-- FastAPI services and typed API contracts
-- React, TypeScript, and Streamlit interfaces
-- SQLAlchemy persistence and audit trails
-- human-review and safety controls
-- Docker, testing, CI/CD, and deployment foundations
+- **Healthcare decision support** with review-first clinical NLP, safety-sensitive model evaluation, clinician oversight, and audit evidence
+- **Privacy-aware resume intelligence** with multi-format parsing, transparent NLP signals, semantic matching, and human review
+- **Evidence-grounded policy RAG** with durable document identity, calibrated answerability, citations, unsupported-question controls, and evaluation
 
-I am especially interested in AI systems where **traceability, reliability, privacy, and responsible use** matter as much as model performance.
+I am especially interested in systems where model or retrieval output must be **explainable, evidence-backed, reviewable, and honest about uncertainty, failure states, and limitations**.
 
-> **Career focus:** Applied AI/ML Engineering, Machine Learning Engineering, Data Science, MLOps, and AI-focused Software Development.
+> **Target roles:** AI/ML Engineering, Data Science, GenAI/RAG, Applied Software, and Junior MLOps.
 
 ---
 
 ## Featured Projects
 
-### TriageAI / SympDirect
+### 1. TriageAI / SympDirect
 
-**ESI Clinical Intake & Care Routing Assistant**
+**Clinical Intake & ESI Care Routing Assistant**
 
-A healthcare AI decision-support workflow for structured intake and ESI care routing. The system combines real LightGBM inference with safety-rule escalation, clinician review, audit logging, database persistence, dashboard workflows, and backend-generated PDF summaries.
+A review-first healthcare AI decision-support workflow that connects clinician notes and structured intake to ESI 3/4/5 prediction, transparent safety escalation, clinician decisions, audit evidence, dashboard workflows, and backend-generated PDF summaries.
+
+**Workflow**
+
+```text
+Clinical note or structured intake
+→ evidence-linked NLP extraction
+→ clinician review and correction
+→ reproducible feature builder
+→ LightGBM ESI 3/4/5 prediction
+→ explicit safety-rule escalation
+→ clinician accept / override / needs review
+→ server-side audit trail
+→ PDF decision-support summary
+```
 
 **Selected engineering evidence**
 
-- LightGBM V2 model registry for ESI 3/4/5 classification with **273 input features**
-- Rule-based safety gates for higher-acuity escalation before and after model inference
-- Review-first Clinical Intake NLP Safety Layer for extracting demographics, symptoms, vital signs, safety cues, and uncertainty from clinician notes
+- Final LightGBM V2 registry with **273 ordered runtime features**
+- Review-first Clinical Intake NLP Safety Layer with editable fields, evidence snippets, safety cues, and missing-data warnings
 - React + TypeScript frontend connected to a FastAPI source of truth
-- SQLAlchemy persistence, audit events, latency tracking, and ReportLab PDF generation
-- Human-in-the-loop accept/override workflow with clear decision-support boundaries
+- SQLAlchemy persistence, reviewed NLP audit metadata, clinician decision history, and ReportLab PDF generation
+- Explicit safety rules remain visible around the model instead of being hidden inside an unsupported classifier claim
+- Final system wording preserves the clinician as the decision-maker
 
-**Verified model evaluation**
+**Verified held-out test evaluation**
 
-| Accuracy | Macro F1 | Weighted F1 | ESI 5 F1 | Unsafe ESI 3→5 downgrade rate |
+| Accuracy | Macro F1 | Weighted F1 | ESI 5 F1 | Unsafe ESI 3→5 rate |
 |---:|---:|---:|---:|---:|
 | **78.32%** | **70.37%** | **78.88%** | **54.70%** | **0.68%** |
 
-`Python` `LightGBM` `FastAPI` `React` `TypeScript` `SQLAlchemy` `ReportLab`
+`Python` `LightGBM` `FastAPI` `React` `TypeScript` `SQLAlchemy` `ReportLab` `pytest`
 
 [![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chintan-02/triageai-esi-care-routing)
 [![Case Study](https://img.shields.io/badge/Case_Study-0D9488?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/case-studies/triageai)
+[![Model Article](https://img.shields.io/badge/Model_Article-B45309?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/writing/lightgbm-vs-xgboost)
 
-> Portfolio and educational clinical decision-support project. It does not diagnose patients or replace clinician judgment.
+> **Boundary:** Portfolio and educational clinical decision-support project. It does not diagnose patients, replace clinician judgment, establish clinical safety, or claim regulatory approval.
 
 ---
 
-### PolicyGPT Enterprise
+### 2. PolicyGPT Enterprise
 
-**Evidence-First RAG for Policy and Compliance Documents**
+**Production-Style Evidence Intelligence for Policy Documents · v0.3.0**
 
-A production-shaped retrieval-augmented generation system that retrieves, scores, and displays evidence before answer generation. It is designed to refuse unsupported answers when retrieved evidence does not meet the configured threshold.
+A local release-style policy RAG system that treats document identity, evidence sufficiency, citations, unsupported requests, provider failure, evaluation, and operational readiness as product requirements—not optional backend details.
+
+**Architecture**
+
+```text
+Next.js 16 + React 19 + TypeScript
+→ server-side BFF
+→ FastAPI evidence service
+→ PostgreSQL 16 document lifecycle and identity
+→ PyMuPDF extraction and chunking
+→ SentenceTransformer embeddings
+→ ChromaDB retrieval
+→ calibrated answerability and evidence gate
+→ generated answer, citation-only fallback, or controlled rejection
+```
 
 **Selected engineering evidence**
 
-- Page-aware PDF extraction, cleaning, chunking, and metadata preservation
-- SentenceTransformer embeddings with ChromaDB semantic retrieval
-- Evidence scoring, threshold filtering, and citation-backed responses
-- Evidence Explorer with retrieval trace, confidence, and source transparency
-- Groq, OpenAI, and no-LLM fallback modes
-- FastAPI backend with a product-style Streamlit compliance console
+- SHA-256 duplicate prevention and atomic source-document storage
+- PostgreSQL lifecycle metadata with SQLAlchemy and Alembic migrations
+- Calibrated answerability using retrieval strength, coverage, numeric consistency, direct support, and scope-risk signals
+- Page-level citations and provider-resilient citation-only fallback
+- Controlled rejection for unsupported or externally authoritative requests
+- Separate **Documents, Ask, Evaluation, and System** product workspaces
+- Four-service Docker Compose release profile with non-root containers, health/readiness gates, structured logs, and request IDs
+- **229 backend tests** and **112 frontend tests**
 
-`Python` `FastAPI` `Streamlit` `SentenceTransformers` `ChromaDB` `PyMuPDF` `Pydantic`
+**Controlled local benchmark**
+
+| Cases | Supported | Unsupported | Expected-page hit rate | Request errors |
+|---:|---:|---:|---:|---:|
+| **16** | **11** | **5** | **100%** | **0** |
+
+The verified benchmark run intentionally disabled the generation provider. Supported cases returned citation-only evidence, so the result validates retrieval, answerability, unsupported-question handling, and fallback behaviour—not generated-answer quality or production accuracy.
+
+`Next.js` `React` `TypeScript` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `PyMuPDF` `SentenceTransformers` `ChromaDB` `Docker Compose` `Vitest`
 
 [![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chintan-02/policygpt-enterprise)
 [![Case Study](https://img.shields.io/badge/Case_Study-0D9488?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/case-studies/policygpt)
+[![Evaluation Article](https://img.shields.io/badge/RAG_Evaluation-6D28D9?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/writing/rag-evaluation-beyond-demo)
+
+> **Boundary:** Verified local release profile. No cloud deployment, production authentication/RBAC, multitenancy, managed backups, hosted monitoring, or commercial deployment claim.
 
 ---
 
-### ResumeIQ
+### 3. ResumeIQ
 
 **Privacy-Aware Resume Intelligence Platform**
 
-An NLP decision-support platform for resume parsing, role classification, ATS-style compatibility signals, job-description matching, semantic similarity, skill intelligence, sentence-quality analysis, and practical rewrite guidance.
+An NLP decision-support platform that separates parsing, baseline role classification, ATS-style compatibility, keyword evidence, semantic job-description matching, skill gaps, writing quality, and reviewer workflow instead of presenting one unexplained hiring score.
 
 **Selected engineering evidence**
 
-- PDF, DOCX, and TXT parsing with text preprocessing
-- TF-IDF role classification and job-description matching
-- Semantic similarity and normalized skill extraction
-- Template detection and generic-sentence analysis
-- FastAPI backend foundation with SQLAlchemy persistence
-- Docker Compose, pytest, GitHub Actions, and Azure deployment
-- Human-review boundary that supports decisions without automating hiring outcomes
+- PDF, DOCX, and TXT parsing with normalization and section-aware review
+- TF-IDF baseline classification
+- Exact keyword coverage plus semantic job-description matching
+- Normalized skill intelligence and visible skill-gap analysis
+- Writing-quality and structure guidance
+- Batch resume comparison, reviewer notes, and human decision boundaries
+- Privacy-safe display mode for portfolio demonstrations
+- Optional FastAPI, SQLite, SQLAlchemy, Docker Compose, pytest, and GitHub Actions foundations
+- Working Azure App Service portfolio demo
 
-`Python` `NLP` `Scikit-learn` `FastAPI` `Streamlit` `SQLAlchemy` `Docker` `Azure`
+No headline classifier accuracy is promoted until leakage, duplication, split quality, calibration, and independent benchmark design are fully validated.
+
+`Python` `NLP` `TF-IDF` `scikit-learn` `Streamlit` `FastAPI` `SQLAlchemy` `Docker Compose` `GitHub Actions` `Azure App Service`
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://resume-classifier-chintan.azurewebsites.net/)
 [![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chintan-02/smart-resume-classifier)
 [![Case Study](https://img.shields.io/badge/Case_Study-0D9488?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/case-studies/resumeiq)
+[![Design Article](https://img.shields.io/badge/Multi--Signal_Design-B45309?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/writing/resume-intelligence-multi-signal)
+
+> **Boundary:** Decision-support portfolio project. It does not automate hiring decisions, claim commercial ATS integration, or present model output as employment truth.
 
 ---
 
-## Applied AI/ML Capabilities
+## Applied AI Engineering Stack
 
-| Area | Practical Experience |
+| Layer | Demonstrated capabilities |
 |---|---|
-| **Machine Learning** | Preprocessing, feature engineering, classification, class imbalance, threshold tuning, cross-validation, model comparison, error analysis, confusion matrices, precision/recall/F1, and explainability |
-| **NLP & Retrieval** | Text cleaning, TF-IDF, document parsing, SentenceTransformers, embeddings, semantic search, vector retrieval, evidence scoring, RAG, citations, and safe fallback |
-| **Backend Engineering** | FastAPI, Pydantic, REST APIs, request/response schemas, health/readiness endpoints, SQLAlchemy, audit logs, and PDF/report services |
-| **Frontend & Product** | React, TypeScript, Vite, Tailwind CSS, Streamlit, dashboard workflows, loading/error/empty states, and human-review interfaces |
-| **MLOps & Delivery** | Model registry design, Docker, pytest, GitHub Actions, structured logging, latency tracking, environment configuration, and Azure App Service |
-| **Responsible AI** | Human-in-the-loop review, safe escalation, transparent limitations, evidence grounding, privacy-aware design, auditability, and decision-support boundaries |
+| **Data & Persistence** | Python, NumPy, Pandas, SQL, PostgreSQL, SQLite, SQLAlchemy, Alembic, PyMuPDF, feature engineering, lifecycle metadata |
+| **ML & Evaluation** | scikit-learn, LightGBM, XGBoost, Random Forest, class imbalance, threshold tuning, calibration, per-class evaluation, confusion analysis |
+| **NLP, Retrieval & RAG** | Clinical NLP, TF-IDF, semantic matching, embeddings, SentenceTransformers, ChromaDB, evidence gating, citation grounding, RAG evaluation |
+| **APIs & Product** | FastAPI, Pydantic v2, REST APIs, React, TypeScript, Next.js, Streamlit, Tailwind CSS, ReportLab, server-side BFF patterns |
+| **Delivery & Reliability** | Docker, Docker Compose, GitHub Actions, Azure App Service, pytest, Vitest, ESLint, structured logging, request IDs, health/readiness contracts |
+| **Responsible AI** | Human review, safe escalation, evidence provenance, privacy-aware design, auditability, controlled fallback, transparent limitations |
 
 ---
 
@@ -144,58 +194,57 @@ An NLP decision-support platform for resume parsing, role classification, ATS-st
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB5B29?style=flat-square)
 
-### NLP, RAG & Application Engineering
+### NLP, Retrieval & RAG
 
-![NLP](https://img.shields.io/badge/NLP-0D9488?style=flat-square)
+![NLP](https://img.shields.io/badge/Clinical_NLP-0D9488?style=flat-square)
+![TF-IDF](https://img.shields.io/badge/TF--IDF-475569?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-6D28D9?style=flat-square)
 ![SentenceTransformers](https://img.shields.io/badge/SentenceTransformers-FFB000?style=flat-square)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-3B82F6?style=flat-square)
+
+### Backend, Frontend & Persistence
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-### Engineering & Delivery
+### Delivery & Quality
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure App Service](https://img.shields.io/badge/Azure_App_Service-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## Currently Strengthening
+## Selected Technical Writing
 
-These are active learning or future implementation areas, not completed-project claims:
-
-- agentic AI orchestration with LangGraph and approval-gated workflows
-- PyTorch and transformer fine-tuning
-- MLflow experiment tracking and model registry workflows
-- RAG evaluation, faithfulness testing, latency, and cost analysis
-- drift monitoring with Prometheus, Grafana, and OpenTelemetry
-- PostgreSQL production deployment, cloud secrets, RBAC, and secure AI architecture
-- Kubernetes, OpenShift, and hybrid-cloud deployment fundamentals
+- [Building TriageAI's ESI 3/4/5 Model: Why LightGBM Won](https://chintan-patel-ai.netlify.app/writing/lightgbm-vs-xgboost)
+- [Designing a Review-First Clinical NLP Safety Layer](https://chintan-patel-ai.netlify.app/writing/clinical-nlp-safety-layer)
+- [From Notebook to FastAPI: Building a Reproducible Model Registry](https://chintan-patel-ai.netlify.app/writing/model-registry-to-fastapi)
+- [How I Evaluate a RAG System Beyond Demo Questions](https://chintan-patel-ai.netlify.app/writing/rag-evaluation-beyond-demo)
+- [Why ResumeIQ Uses Multiple Signals Instead of One ATS Score](https://chintan-patel-ai.netlify.app/writing/resume-intelligence-multi-signal)
 
 ---
 
-## Next Build: OpsPilot AI
+## Current Focus
 
-**Status: Planned**
-
-A future AIOps project focused on incident classification, evidence-grounded root-cause analysis, human-approved remediation, observability, and responsible automation.
-
-Planned scope includes:
-
-- ML-based incident severity classification
-- log, metric, runbook, and postmortem retrieval
-- LangGraph workflow with approval checkpoints
-- PostgreSQL, Docker Compose, MLflow, and observability foundations
-- transparent audit records and simulated remediation only
-
-> The technologies above are roadmap targets and are not presented as completed project experience.
+- Expanding PolicyGPT retrieval experiments, provider-enabled answer-quality evaluation, and deployment planning
+- Completing real screenshots, documentation, and recruiter-facing evidence for TriageAI and ResumeIQ
+- Deepening production ML, RAG evaluation, observability, secure data lifecycles, cloud services, and MLOps foundations
+- Preparing for AI/ML co-op, internship, new-graduate, and junior opportunities across Canada
 
 ---
 
@@ -203,15 +252,15 @@ Planned scope includes:
 
 | Program | Institution | Status |
 |---|---|---|
-| Post-Diploma Certificate — Integrated Artificial Intelligence | SAIT, Calgary, Canada | In progress, 2026 |
-| Post-Graduate Certificate — Supply Chain Management & Logistics | MacEwan University, Edmonton, Canada | Completed, 2025 |
-| Bachelor of Engineering — Computer Science | ITM University, Vadodara, India | Completed, 2019 |
+| Postgraduate Certificate — Integrated Artificial Intelligence | SAIT, Calgary, Canada | In progress · 2026 |
+| Postgraduate Certificate — Supply Chain & Logistics | MacEwan University, Edmonton, Canada | Completed · 2025 |
+| Bachelor of Engineering — Computer Science | ITM University, Vadodara, India | Completed · 2019 |
 
 ---
 
 ## Connect
 
-I am open to **co-op, internship, new-graduate, and junior opportunities across Canada** in Applied AI/ML Engineering, Machine Learning Engineering, Data Science, MLOps, and AI-focused Software Development.
+I am open to **co-op, internship, new-graduate, and junior opportunities across Canada** in AI/ML Engineering, Data Science, GenAI/RAG, Applied Software, Analytics, and Junior MLOps.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-chintan--patel--ai-0D9488?style=flat-square&logo=google-chrome&logoColor=white)](https://chintan-patel-ai.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Chintan_Patel-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chintan-patel-ai/)
@@ -221,5 +270,5 @@ I am open to **co-op, internship, new-graduate, and junior opportunities across 
 ---
 
 <div align="center">
-  <i>Building AI systems that are useful, reviewable, and trustworthy.</i>
+  <i>Building AI systems that are useful, reviewable, evidence-grounded, and honest about their limits.</i>
 </div>
