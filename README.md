@@ -11,7 +11,7 @@
 
 # Chintan Patel
 
-### Applied AI/ML Engineer · Data Science · GenAI/RAG · AI Product Engineering
+### Applied AI/ML Engineer · Machine Learning · GenAI/RAG · AI Product Engineering
 
 I build end-to-end AI systems that connect **data, evaluated models, retrieval pipelines, typed APIs, human review, and operational evidence**.
 
@@ -28,7 +28,7 @@ I build end-to-end AI systems that connect **data, evaluated models, retrieval p
 
 ## About
 
-I am a Computer Science graduate completing SAIT's **Integrated Artificial Intelligence** postgraduate certificate in Calgary.
+I am a Computer Science graduate who completed SAIT’s **Post-Diploma Certificate in Integrated Artificial Intelligence** in August 2026.
 
 My work focuses on practical AI engineering across three areas:
 
@@ -38,7 +38,7 @@ My work focuses on practical AI engineering across three areas:
 
 I am especially interested in systems where model or retrieval output must be **explainable, evidence-backed, reviewable, and honest about uncertainty, failure states, and limitations**.
 
-> **Target roles:** AI/ML Engineering, Data Science, GenAI/RAG, Applied Software, and Junior MLOps.
+> **Target roles:** Applied AI/ML Engineering, Machine Learning Engineering, GenAI/RAG, NLP, and AI-focused Software Development.
 
 ---
 
@@ -118,7 +118,7 @@ Next.js 16 + React 19 + TypeScript
 - Controlled rejection for unsupported or externally authoritative requests
 - Separate **Documents, Ask, Evaluation, and System** product workspaces
 - Four-service Docker Compose release profile with non-root containers, health/readiness gates, structured logs, and request IDs
-- **229 backend tests** and **112 frontend tests**
+- **230 backend tests** and **128 frontend tests**
 
 **Controlled local benchmark**
 
@@ -131,7 +131,7 @@ The verified benchmark run intentionally disabled the generation provider. Suppo
 `Next.js` `React` `TypeScript` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `PyMuPDF` `SentenceTransformers` `ChromaDB` `Docker Compose` `Vitest`
 
 [![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chintan-02/policygpt-enterprise)
-[![Case Study](https://img.shields.io/badge/Case_Study-0D9488?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/case-studies/policygpt)
+[![Case Study](https://img.shields.io/badge/Case_Study-0D9488?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/case-studies/policygpt-enterprise)
 [![Evaluation Article](https://img.shields.io/badge/RAG_Evaluation-6D28D9?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/writing/rag-evaluation-beyond-demo)
 
 > **Boundary:** Verified local release profile. No cloud deployment, production authentication/RBAC, multitenancy, managed backups, hosted monitoring, or commercial deployment claim.
@@ -244,7 +244,7 @@ No headline classifier accuracy is promoted until leakage, duplication, split qu
 - Expanding PolicyGPT retrieval experiments, provider-enabled answer-quality evaluation, and deployment planning
 - Completing real screenshots, documentation, and recruiter-facing evidence for TriageAI and ResumeIQ
 - Deepening production ML, RAG evaluation, observability, secure data lifecycles, cloud services, and MLOps foundations
-- Preparing for AI/ML co-op, internship, new-graduate, and junior opportunities across Canada
+- Preparing for new-graduate and junior Applied AI/ML opportunities across Canada
 
 ---
 
@@ -252,15 +252,15 @@ No headline classifier accuracy is promoted until leakage, duplication, split qu
 
 | Program | Institution | Status |
 |---|---|---|
-| Postgraduate Certificate — Integrated Artificial Intelligence | SAIT, Calgary, Canada | In progress · 2026 |
-| Postgraduate Certificate — Supply Chain & Logistics | MacEwan University, Edmonton, Canada | Completed · 2025 |
-| Bachelor of Engineering — Computer Science | ITM University, Vadodara, India | Completed · 2019 |
+| Post-Diploma Certificate, Integrated Artificial Intelligence | SAIT, Calgary, Canada | Completed · August 2026 |
+| Professional Development Certificate, Supply Chain Management & Logistics | MacEwan University, Edmonton, Canada | Completed · December 2025 |
+| Bachelor of Engineering, Computer Science and Engineering | Gujarat Technological University (ITM Universe), India | Completed · 2019 |
 
 ---
 
 ## Connect
 
-I am open to **co-op, internship, new-graduate, and junior opportunities across Canada** in AI/ML Engineering, Data Science, GenAI/RAG, Applied Software, Analytics, and Junior MLOps.
+I am open to **new-graduate and junior opportunities across Canada** in Applied AI/ML Engineering, Machine Learning Engineering, GenAI/RAG, NLP, and AI-focused Software Development.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-chintan--patel--ai-0D9488?style=flat-square&logo=google-chrome&logoColor=white)](https://chintan-patel-ai.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Chintan_Patel-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chintan-patel-ai/)
