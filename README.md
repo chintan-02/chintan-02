@@ -36,10 +36,10 @@ My focus is applied AI systems where outputs need to be **evaluated, evidence-ba
 | Project | Selected proof | Delivery state |
 |---|---|---|
 | **RegImpact AI** | Hybrid retrieval · pgvector · RBAC · human approval · async workers · OIDC · Bicep | **v0.5.0 verified Azure staging release** |
-| **TriageAI / SympDirect** | 273-feature LightGBM workflow · 70.37% Macro F1 · 0.68% unsafe ESI 3→5 · clinician review | Verified local clinical decision-support workflow |
+| **TriageAI / SympDirect** | 273-feature LightGBM workflow · 70.37% Macro F1 · 0.68% unsafe ESI 3→5 · clinician review | Live educational demo · Cloud Run + PostgreSQL |
 | **PolicyGPT Enterprise** | 230 backend tests · 128 frontend tests · 16-case evaluation · evidence gating · citations | **v0.3.0 verified local release** |
 | **Product Finder AI Agent** | Google ADK · Gemini tool use · deterministic filtering · FastAPI · React | **Cloud Run backend + Netlify frontend** |
-| **ResumeIQ** | PDF/DOCX/TXT parsing · semantic JD matching · multi-signal review · human oversight | Azure-hosted portfolio demo |
+| **ResumeIQ** | PDF/DOCX/TXT parsing · semantic JD matching · multi-signal review · human oversight | Previously Azure-hosted · demo currently offline |
 
 ---
 
@@ -82,14 +82,17 @@ A safety-aware clinical decision-support workflow connecting clinician notes and
 - Explicit safety escalation outside the classifier
 - Clinician accept, override, and needs-review workflows
 - React/TypeScript frontend, FastAPI backend, SQLAlchemy persistence
-- **96 backend tests** and **52 frontend tests**
+- Owner-scoped sessions, workflow roles and PostgreSQL/Alembic persistence
+- Private GCS PDF snapshots, hourly demo cleanup and operational monitoring
+- **160 Python tests passed** (1 PostgreSQL-only case skipped locally), **60 React tests passed**; PostgreSQL integration passed separately in CI
 
 | Accuracy | Macro F1 | Weighted F1 | ESI 5 F1 | Unsafe ESI 3→5 |
 |---:|---:|---:|---:|---:|
 | **78.32%** | **70.37%** | **78.88%** | **54.70%** | **0.68%** |
 
-`Python` `LightGBM` `FastAPI` `React` `TypeScript` `SQLAlchemy`
+`Python` `LightGBM` `FastAPI` `React` `TypeScript` `PostgreSQL` `Cloud Run` `GCS` `Docker`
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open-0D9488?style=flat-square)](https://triageai-chintan-staging.netlify.app/)
 [![Repository](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chintan-02/triageai-esi-care-routing)
 [![Case Study](https://img.shields.io/badge/Case_Study-0D9488?style=flat-square&logo=readme&logoColor=white)](https://chintan-patel-ai.netlify.app/case-studies/triageai)
 
@@ -139,9 +142,9 @@ Privacy-aware resume intelligence and human decision-support workflow for multi-
 - TF-IDF / scikit-learn foundations
 - Semantic job-description matching and normalized skill intelligence
 - Streamlit interface with FastAPI / persistence foundations
-- Azure-hosted portfolio demonstration
+- Previously Azure-hosted · demo currently offlinenstration
 
-[Live Demo](https://resume-classifier-chintan.azurewebsites.net/) · [Repository](https://github.com/chintan-02/smart-resume-classifier) · [Case Study](https://chintan-patel-ai.netlify.app/case-studies/resumeiq)
+[Repository](https://github.com/chintan-02/smart-resume-classifier) · [Case Study](https://chintan-patel-ai.netlify.app/case-studies/resumeiq)
 
 ---
 
