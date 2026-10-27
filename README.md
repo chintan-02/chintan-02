@@ -10,7 +10,7 @@
 
 I build AI systems from **models and retrieval through APIs, product interfaces, cloud delivery, evaluation, observability, and human-review workflows**.
 
-📍 Calgary, Alberta, Canada &nbsp;·&nbsp; 🎯 Open to Applied AI Engineer, Machine Learning Engineer, and Full-Stack AI Engineer opportunities across Canada
+📍 Edmonton, Alberta, Canada &nbsp;·&nbsp; 🎯 Open to Applied AI Engineer, Machine Learning Engineer, and Full-Stack AI Engineer opportunities across Canada
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0D9488?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chintan-patel-ai.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chintan-patel-ai/)
@@ -123,6 +123,19 @@ A verified local RAG release designed around durable document identity, evidence
 
 ---
 
+## Client Delivery · Dreamview Technology
+
+Alongside independent AI projects, I deliver client websites and business applications through **[Dreamview Technology](https://github.com/dreamviewtechnology)**.
+
+- **[Hina’s Collection](https://hinascollection.netlify.app/):** handmade-brand ecommerce storefront and owner operations studio; direct UPI with owner receipt verification.
+- **[Meet Sound & Events / DJ Meet](https://meet-sound-events.netlify.app/):** photography-led services website and reviewable event enquiry journey.
+
+These are client delivery examples, distinct from the founder AI projects above. Client source remains private.
+
+[Business website](https://dreamviewtechnology.com/) · [Dreamview work](https://dreamviewtechnology.com/work/)
+
+---
+
 ## Additional Verified Projects
 
 ### 🔎 Product Finder AI Agent
@@ -142,7 +155,7 @@ Privacy-aware resume intelligence and human decision-support workflow for multi-
 - TF-IDF / scikit-learn foundations
 - Semantic job-description matching and normalized skill intelligence
 - Streamlit interface with FastAPI / persistence foundations
-- Previously Azure-hosted · demo currently offlinenstration
+- Previously Azure-hosted · demo currently offline
 
 [Repository](https://github.com/chintan-02/smart-resume-classifier) · [Case Study](https://chintan-patel-ai.netlify.app/case-studies/resumeiq)
 
